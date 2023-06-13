@@ -1,0 +1,9 @@
+neme: Run Shell Commands
+on: [push]
+
+jobs:
+    run-shell-command:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Echo a String
+              run: echo "Hello Security Gru!!. This is my first command as github action command"
